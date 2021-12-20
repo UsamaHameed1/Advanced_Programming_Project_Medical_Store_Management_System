@@ -1,0 +1,23 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : 1
+Customer PhoneNo : 1
+Bill No : ABC_STR-939962946
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Pandol Extra			2024-12-24			10			1			10		
+
+
+--------------------------------------------------
+
+		Total Amount : 10
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 10.0
+		Amount Paid By Customer : 10
+		Change Amount : 0
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

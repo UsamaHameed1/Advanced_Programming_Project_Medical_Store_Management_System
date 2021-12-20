@@ -1,0 +1,24 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : 1
+Customer PhoneNo : 1
+Bill No : ABC_STR141710111
+Salesman Name : Tester
+Payment Number : Easypaisa
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Azomax			2022-01-08			50			1			50		
+
+
+--------------------------------------------------
+
+		Total Amount : 50
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 50.0
+		Amount Paid By Customer : 100
+		Change Amount : 50
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

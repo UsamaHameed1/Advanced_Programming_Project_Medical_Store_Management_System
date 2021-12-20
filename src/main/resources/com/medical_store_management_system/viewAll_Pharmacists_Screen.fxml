@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="714.0" prefWidth="1351.0" style="-fx-background-color: #161853;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medical_store_management_system.GUI_Layer.Admin_Controllers.View_All_Pharmacists_Screen_Controller">
+   <children>
+      <Text fill="#ec255a" layoutX="504.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View All Pharmacists">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <TableView fx:id="Pharmacist_Table" layoutX="89.0" layoutY="145.0" prefHeight="356.0" prefWidth="1206.0">
+        <columns>
+          <TableColumn fx:id="pharm_CNIC" prefWidth="75.0" text="CNIC" />
+          <TableColumn fx:id="phram_Name" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="phram_PhoneNumber" prefWidth="97.0" text="Phone Number" />
+            <TableColumn fx:id="phram_DOB" prefWidth="97.0" text="DOB" />
+            <TableColumn fx:id="phram_LoginUserName" prefWidth="121.0" text="Login User Name" />
+            <TableColumn fx:id="phram_LoginPassword" prefWidth="126.0" text="Login Password" />
+            <TableColumn fx:id="phram_Address" prefWidth="276.0" text="Address" />
+            <TableColumn fx:id="phram_LicenseNo" prefWidth="198.0" text="Pharmacist License No" />
+        </columns>
+      </TableView>
+      <Text fill="#fffdfd" layoutX="486.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="searchKeyWord_TextField" layoutX="572.0" layoutY="108.0" prefHeight="25.0" prefWidth="345.0" promptText="Enter A Keyword To Search" />
+      <Button fx:id="DeleteSalesman_BTN" layoutX="1102.0" layoutY="582.0" mnemonicParsing="false" onAction="#perform_DeleteSalesman" text="Delete A Pharmacist">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="masterPasswordField" layoutX="1054.0" layoutY="643.0" prefHeight="25.0" prefWidth="293.0" promptText="Enter The Master Password To Delete Salesman" />
+      <Text fill="#ec255a" layoutX="89.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To DeletePharmacist Record">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ec255a" layoutX="116.0" layoutY="619.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Select The Row Record">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ec255a" layoutX="118.0" layoutY="643.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Enter Master Password">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ec255a" layoutX="118.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Press Delete Button">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

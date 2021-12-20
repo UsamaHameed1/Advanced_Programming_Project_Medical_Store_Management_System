@@ -1,0 +1,23 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : 11
+Customer PhoneNo : 111
+Bill No : ABC_STR264373322
+Payment Number : JazzCash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Pandol			2021-12-18			12			22			264		
+
+
+--------------------------------------------------
+
+		Total Amount : 264
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 264.0
+		Amount Paid By Customer : 500
+		Change Amount : 236
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

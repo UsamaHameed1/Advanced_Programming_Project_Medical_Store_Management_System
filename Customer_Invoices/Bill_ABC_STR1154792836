@@ -1,0 +1,23 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : 111
+Customer PhoneNo : 111
+Bill No : ABC_STR1154792836
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Burfen			2023-12-16			55			1			55		
+
+
+--------------------------------------------------
+
+		Total Amount : 55
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 55.0
+		Amount Paid By Customer : 100
+		Change Amount : 45
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

@@ -1,0 +1,24 @@
+		ABC Medical Store
+	Customer Bill
+----------------------------------------
+Customer Name : 1
+Customer PhoneNo : 1
+Bill No : ABC_STR210650051
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+2			Ponstan			2024-12-07			9			2			18		
+2			Savoy			2023-12-29			99			2			198		
+
+
+--------------------------------------------------
+
+		Total Amount : 216
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 216.0
+		Amount Paid By Customer : 350
+		Change Amount : 134
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

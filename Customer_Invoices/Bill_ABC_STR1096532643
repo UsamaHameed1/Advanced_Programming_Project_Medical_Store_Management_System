@@ -1,0 +1,25 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : Imran 
+Customer PhoneNo : 12597
+Bill No : ABC_STR1096532643
+Salesman Name : Tester
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Savoy			2023-12-29			99			450			44550		
+2			Burfen			2023-12-16			55			39			2145		
+
+
+--------------------------------------------------
+
+		Total Amount : 46695
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 46695.0
+		Amount Paid By Customer : 50000
+		Change Amount : 3305
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

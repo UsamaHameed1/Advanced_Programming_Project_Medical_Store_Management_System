@@ -1,0 +1,24 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : Amir Rehman
+Customer PhoneNo : 1234567
+Bill No : ABC_STR-1575441199
+Salesman Name : Tester
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Azomax			2022-01-08			50			22			1100		
+
+
+--------------------------------------------------
+
+		Total Amount : 1100
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 1100.0
+		Amount Paid By Customer : 1500
+		Change Amount : 400
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

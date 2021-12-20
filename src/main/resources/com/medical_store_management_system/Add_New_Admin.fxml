@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="714.0" prefWidth="1351.0" style="-fx-background-color: #161853;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medical_store_management_system.GUI_Layer.Admin_Controllers.Add_New_Admin_Controller">
+   <children>
+      <AnchorPane layoutX="332.0" layoutY="219.0" prefHeight="364.0" prefWidth="766.0">
+         <children>
+            <Text fill="WHITE" layoutX="58.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Name">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="adminName" layoutX="248.0" layoutY="55.0" prefHeight="25.0" prefWidth="380.0" />
+            <Text fill="WHITE" layoutX="58.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter CNIC">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="adminCNIC" layoutX="248.0" layoutY="103.0" prefHeight="25.0" prefWidth="380.0" />
+            <Text fill="WHITE" layoutX="58.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Address">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="adminAddress" layoutX="248.0" layoutY="154.0" prefHeight="25.0" prefWidth="380.0" />
+            <Text fill="WHITE" layoutX="58.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Username">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="adminUsername" layoutX="248.0" layoutY="210.0" prefHeight="25.0" prefWidth="380.0" />
+            <Text fill="WHITE" layoutX="58.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Password">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="adminPassword" layoutX="248.0" layoutY="260.0" prefHeight="25.0" prefWidth="380.0" />
+            <Text fill="WHITE" layoutX="58.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Master Password">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="masterPassword" layoutX="248.0" layoutY="309.0" prefHeight="25.0" prefWidth="380.0" promptText="Master Password is Know By Orignal Admin" />
+         </children>
+      </AnchorPane>
+      <Text fill="#ec255a" layoutX="504.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add A New Admin">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Button layoutX="558.0" layoutY="614.0" mnemonicParsing="false" onAction="#perform_AddAdmin" text="Add New Admin" textFill="#ec255a">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <Label fx:id="add_status" layoutX="937.0" layoutY="606.0" prefHeight="49.0" prefWidth="407.0" textFill="#ec255a">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Text fill="WHITE" layoutX="848.0" layoutY="644.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

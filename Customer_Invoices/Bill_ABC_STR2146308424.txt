@@ -1,0 +1,24 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : 545
+Customer PhoneNo : 45
+Bill No : ABC_STR2146308424
+Salesman Name : Talha Rashid
+Payment Method : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Calamox			2024-12-07			11			46			506		
+
+
+--------------------------------------------------
+
+		Total Amount : 506
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 506.0
+		Amount Paid By Customer : 600
+		Change Amount : 94
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

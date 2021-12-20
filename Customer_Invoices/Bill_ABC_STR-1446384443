@@ -1,0 +1,23 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : 1
+Customer PhoneNo : 1
+Bill No : ABC_STR-1446384443
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Corex-D			2022-12-03			55			1			55		
+
+
+--------------------------------------------------
+
+		Total Amount : 55
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 55.0
+		Amount Paid By Customer : 60
+		Change Amount : 5
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

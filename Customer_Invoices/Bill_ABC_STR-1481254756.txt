@@ -1,0 +1,24 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : Zain
+Customer PhoneNo : 1234
+Bill No : ABC_STR-1481254756
+Salesman Name : Talha Rashid
+Payment Method : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Nuberol Forte			2023-12-02			10			1			10		
+
+
+--------------------------------------------------
+
+		Total Amount : 10
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 10.0
+		Amount Paid By Customer : 10
+		Change Amount : 0
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

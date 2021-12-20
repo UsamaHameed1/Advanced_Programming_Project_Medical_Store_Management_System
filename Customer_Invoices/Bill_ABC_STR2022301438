@@ -1,0 +1,23 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : Khan
+Customer PhoneNo : 12345678
+Bill No : ABC_STR2022301438
+Salesman Name : TesterPayment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Amoxil			2023-01-27			23			11			253		
+
+
+--------------------------------------------------
+
+		Total Amount : 253
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 253.0
+		Amount Paid By Customer : 500
+		Change Amount : 247
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

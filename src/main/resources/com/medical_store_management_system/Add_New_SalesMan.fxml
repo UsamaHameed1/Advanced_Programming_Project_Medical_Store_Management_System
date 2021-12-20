@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="714.0" prefWidth="1351.0" style="-fx-background-color: #161853;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medical_store_management_system.GUI_Layer.Admin_Controllers.Add_New_SalesMan_Controller">
+   <children>
+      <Text fill="#ec255a" layoutX="508.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add A New Sales Man">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="142.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="142.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Addess">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="142.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="142.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CNIC No">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="597.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sales Man Login User Name">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="593.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sales Man Login Password">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="newSalesman_Name" layoutX="239.0" layoutY="261.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="285.0" promptText="Enter Salesman Name" />
+      <TextField fx:id="newSalesman_Address" layoutX="239.0" layoutY="317.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="285.0" promptText="Enter Address" />
+      <TextField fx:id="newSalesman_PhoneNo" layoutX="313.0" layoutY="373.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="213.0" promptText="Enter Phone Number" />
+      <TextField fx:id="newSalesman_CNIC" layoutX="262.0" layoutY="423.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="268.0" promptText="Enter CNIC" />
+      <TextField fx:id="newSalesman_UserName" layoutX="899.0" layoutY="292.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="311.0" promptText="Enter User Name" />
+      <TextField fx:id="newSalesman_Password" layoutX="899.0" layoutY="348.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="311.0" promptText="Enter Login Password" />
+      <Text fill="#fffdfd" layoutX="597.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Details">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Button fx:id="newSalesman_Add_Button" layoutX="551.0" layoutY="518.0" mnemonicParsing="false" onAction="#addNewSalesman" prefHeight="66.0" prefWidth="285.0" text="Add Details" textFill="#ec255a">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Button>
+      <Label fx:id="newSalesman_Status" layoutX="863.0" layoutY="433.0" prefHeight="17.0" prefWidth="340.0" textFill="#fffdfd">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="768.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="150.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Birth">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="newSalesman_DOB" layoutX="296.0" layoutY="463.0" prefHeight="32.0" prefWidth="234.0" />
+   </children>
+</AnchorPane>

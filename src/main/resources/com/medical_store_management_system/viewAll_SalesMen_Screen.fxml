@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="715.0" prefWidth="1351.0" style="-fx-background-color: #161853;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medical_store_management_system.GUI_Layer.Admin_Controllers.View_All_SalesMen_Screen_Controller">
+   <children>
+      <Text fill="#ec255a" layoutX="549.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View All Salesman">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <TableView fx:id="All_SaleMan_Table" layoutX="72.0" layoutY="157.0" prefHeight="388.0" prefWidth="1225.0">
+        <columns>
+          <TableColumn fx:id="col_Salesman_CNIC" prefWidth="75.0" text="CNIC" />
+          <TableColumn fx:id="col_Salesman_Name" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="col_Salesman_PhoneNo" prefWidth="97.0" text="Phone Number" />
+            <TableColumn fx:id="col_Salesman_DOB" prefWidth="97.0" text="DOB" />
+            <TableColumn fx:id="col_Salesman_LoginUsername" prefWidth="121.0" text="Login User Name" />
+            <TableColumn fx:id="col_Salesman_LoginPassword" prefWidth="158.0" text="Login Password" />
+            <TableColumn fx:id="col_Salesman_Address" prefWidth="442.0" text="Address" />
+        </columns>
+      </TableView>
+      <Text fill="#fffdfd" layoutX="486.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="searchKeyword_SalesMan" layoutX="572.0" layoutY="103.0" prefHeight="25.0" prefWidth="345.0" promptText="Enter A Keyword To Search" />
+      <Button fx:id="DeleteSalesman_BTN" layoutX="1077.0" layoutY="602.0" mnemonicParsing="false" onAction="#perform_DeleteSalesman" text="Delete A Sales Man">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="masterPasswordField" layoutX="1029.0" layoutY="663.0" prefHeight="25.0" prefWidth="293.0" promptText="Enter The Master Password To Delete Salesman" />
+      <Text fill="#ec255a" layoutX="64.0" layoutY="609.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To Delete Salesman Record">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ec255a" layoutX="91.0" layoutY="639.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Select The Row Record">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ec255a" layoutX="93.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Enter Master Password">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#ec255a" layoutX="93.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Press Delete Button">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

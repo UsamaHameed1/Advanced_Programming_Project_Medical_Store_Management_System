@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<DialogPane prefWidth="1140.0" style="-fx-background-color: #ec255a;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medical_store_management_system.GUI_Layer.Pharamcist_Controllers.Edit_Medicine_Dialog_Controller">
+   <content>
+      <AnchorPane prefHeight="503.0" prefWidth="1140.0" style="-fx-background-color: #161853;">
+          <children>
+              <Text fill="#ec255a" layoutX="392.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit A Medicine Details">
+                  <font>
+                      <Font size="38.0" />
+                  </font>
+              </Text>
+              <Text fill="#fffdfd" layoutX="40.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <Text fill="#fffdfd" layoutX="40.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drug Code">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <Text fill="#fffdfd" layoutX="40.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batch No">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <Text fill="#fffdfd" layoutX="40.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Retail Price">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <Text fill="#fffdfd" layoutX="495.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Manufacture">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <Text fill="#fffdfd" layoutX="499.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Expiry">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <TextField fx:id="medicineName" layoutX="137.0" layoutY="155.0" prefHeight="25.0" prefWidth="285.0" promptText="Enter Medicine Name" />
+              <TextField fx:id="medicineDrugCode" layoutX="163.0" layoutY="213.0" prefHeight="25.0" prefWidth="260.0" promptText="Enter Drug Code" />
+              <TextField fx:id="medicineBatchNo" layoutX="156.0" layoutY="267.0" prefHeight="25.0" prefWidth="268.0" promptText="Enter Medicine Batch" />
+              <TextField fx:id="medicineRetailPrice" layoutX="185.0" layoutY="317.0" prefHeight="25.0" prefWidth="243.0" promptText="Enter Retail Price PKR" />
+              <Text fill="#fffdfd" layoutX="430.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add New Details">
+                  <font>
+                      <Font size="38.0" />
+                  </font>
+              </Text>
+              <Label fx:id="medicineDrugAdd_Status" layoutX="758.0" layoutY="466.0" prefHeight="17.0" prefWidth="340.0" textFill="#fffdfd">
+                  <font>
+                      <Font size="24.0" />
+                  </font>
+              </Label>
+              <Text fill="WHITE" layoutX="663.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+                  <font>
+                      <Font size="24.0" />
+                  </font>
+              </Text>
+              <Text fill="#fffdfd" layoutX="40.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manufacturer Name">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <TextField fx:id="medicineManufacture" layoutX="259.0" layoutY="415.0" prefHeight="25.0" prefWidth="170.0" promptText="Enter Manufacture Name" />
+              <DatePicker fx:id="medicineDOManufacture" layoutX="724.0" layoutY="155.0" prefHeight="25.0" prefWidth="340.0" promptText="Enter Manufacture Date" />
+              <DatePicker fx:id="medicineDOEXpiry" layoutX="724.0" layoutY="201.0" prefHeight="25.0" prefWidth="340.0" promptText="Enter Expiry Date" />
+              <Text fill="#fffdfd" layoutX="40.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dossage">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <TextField fx:id="medicineDossage" layoutX="259.0" layoutY="458.0" prefHeight="25.0" prefWidth="170.0" promptText="Enter Dossage " />
+              <Text fill="#fffdfd" layoutX="498.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <TextField fx:id="medicineQuantity" layoutX="723.0" layoutY="246.0" prefHeight="25.0" prefWidth="170.0" promptText="Enter Quantity" />
+              <Text fill="#fffdfd" layoutX="499.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <TextArea fx:id="medicineBasicDescription" layoutX="720.0" layoutY="284.0" prefHeight="66.0" prefWidth="395.0" promptText="Enter Brief Description of Medicine" />
+              <Text fill="#fffdfd" layoutX="499.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type/Form" wrappingWidth="115.48291015625011">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <ComboBox fx:id="medicineType" layoutX="720.0" layoutY="376.0" prefHeight="25.0" prefWidth="268.0" promptText="Select Medicine Type" />
+              <Text fill="#fffdfd" layoutX="40.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dealer Price">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <TextField fx:id="medicineDealerPrice" layoutX="185.0" layoutY="362.0" prefHeight="25.0" prefWidth="243.0" promptText="Enter Dealer Price PKR" />
+              <Text fill="#fffdfd" layoutX="502.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medicine Generic Name">
+                  <font>
+                      <Font size="23.0" />
+                  </font>
+              </Text>
+              <TextField fx:id="medicineGenericName" layoutX="761.0" layoutY="428.0" prefHeight="25.0" prefWidth="354.0" promptText="Enter Generic Name" />
+            <Button fx:id="updateDetails_BTN" layoutX="482.0" layoutY="501.0" mnemonicParsing="false" onAction="#perform_UpdateDetails" text="Update Details">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+      
+                </children>
+      </AnchorPane>
+   </content>
+   <buttonTypes>
+      <ButtonType fx:constant="OK" />
+      <ButtonType fx:constant="CANCEL" />
+   </buttonTypes>
+</DialogPane>

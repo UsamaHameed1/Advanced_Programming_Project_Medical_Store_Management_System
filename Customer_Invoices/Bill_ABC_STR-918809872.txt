@@ -1,0 +1,24 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : Hamza
+Customer PhoneNo : 1258974
+Bill No : ABC_STR-918809872
+Salesman Name : Talha Rashid
+Payment Method : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Klaricid			2023-01-07			25			4			100		
+
+
+--------------------------------------------------
+
+		Total Amount : 100
+		Discount (%) : 5
+		Savings on Bill : 5.0
+		Total Payable Bill : 95.0
+		Amount Paid By Customer : 95
+		Change Amount : 0
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

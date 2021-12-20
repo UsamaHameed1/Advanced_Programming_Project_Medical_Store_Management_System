@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="595.0" prefWidth="1140.0" style="-fx-background-color: #161853;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.medical_store_management_system.GUI_Layer.Pharamcist_Controllers.Add_New_Medicine_Controller">
+   <children>
+      <Text fill="#ec255a" layoutX="406.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add A New Medicine">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="40.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="40.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drug Code">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="40.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batch No">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="40.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Retail Price">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="495.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Manufacture">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="499.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Expiry">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="medicineName" layoutX="137.0" layoutY="155.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="285.0" promptText="Enter Medicine Name" />
+      <TextField fx:id="medicineDrugCode" layoutX="163.0" layoutY="213.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="260.0" promptText="Enter Drug Code" />
+      <TextField fx:id="medicineBatchNo" layoutX="156.0" layoutY="267.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="268.0" promptText="Enter Medicine Batch" />
+      <TextField fx:id="medicineRetailPrice" layoutX="185.0" layoutY="317.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="243.0" promptText="Enter Retail Price PKR" />
+      <Text fill="#fffdfd" layoutX="495.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Details">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Button fx:id="addDetails_Medicine" layoutX="449.0" layoutY="511.0" mnemonicParsing="false" onAction="#perform_Add_New_Medicine" prefHeight="25.0" prefWidth="285.0" text="Add Details" textFill="#ec255a">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="medicineDrugAdd_Status" layoutX="758.0" layoutY="466.0" prefHeight="17.0" prefWidth="340.0" textFill="#fffdfd">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="663.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="40.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manufacturer Name">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="medicineManufacture" layoutX="259.0" layoutY="415.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="170.0" promptText="Enter Manufacture Name" />
+      <DatePicker fx:id="medicineDOManufacture" layoutX="724.0" layoutY="155.0" prefHeight="25.0" prefWidth="340.0" promptText="Enter Manufacture Date" />
+      <DatePicker fx:id="medicineDOEXpiry" layoutX="724.0" layoutY="201.0" prefHeight="25.0" prefWidth="340.0" promptText="Enter Expiry Date" />
+      <Text fill="#fffdfd" layoutX="40.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dossage">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="medicineDossage" layoutX="259.0" layoutY="458.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="170.0" promptText="Enter Dossage " />
+      <Text fill="#fffdfd" layoutX="498.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="medicineQuantity" layoutX="723.0" layoutY="246.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="170.0" promptText="Enter Quantity" />
+      <Text fill="#fffdfd" layoutX="499.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="medicineBasicDescription" layoutX="720.0" layoutY="284.0" prefHeight="66.0" prefWidth="395.0" promptText="Enter Brief Description of Medicine" />
+      <Text fill="#fffdfd" layoutX="499.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type/Form" wrappingWidth="115.48291015625011">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="medicineType" layoutX="720.0" layoutY="376.0" prefHeight="25.0" prefWidth="268.0" promptText="Select Medicine Type" />
+      <Text fill="#fffdfd" layoutX="40.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dealer Price">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="medicineDealerPrice" layoutX="185.0" layoutY="362.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="243.0" promptText="Enter Dealer Price PKR" />
+      <Text fill="#fffdfd" layoutX="502.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medicine Generic Name">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="medicineGenericName" layoutX="761.0" layoutY="428.0" onKeyReleased="#handleKeyReleased" prefHeight="25.0" prefWidth="354.0" promptText="Enter Generic Name" />
+      <Text fill="#fffefe" layoutX="41.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To Add A New Medicine Again Click Add New Medicne Button To Reset The Fields" />
+
+   </children>
+</AnchorPane>

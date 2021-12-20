@@ -1,0 +1,24 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : ahmed khan
+Customer PhoneNo : 1235465
+Bill No : ABC_STR-1504345147
+Salesman Name : Talha Rashid
+Payment Method : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Pandol Extra			2024-12-24			10			2			20		
+
+
+--------------------------------------------------
+
+		Total Amount : 20
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 20.0
+		Amount Paid By Customer : 20
+		Change Amount : 0
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

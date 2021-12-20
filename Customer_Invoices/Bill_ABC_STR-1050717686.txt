@@ -1,0 +1,24 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : Hameed
+Customer PhoneNo : 159753
+Bill No : ABC_STR-1050717686
+Salesman Name : Usama Hameed
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Nuberol Forte			2023-12-02			10			10			100		
+
+
+--------------------------------------------------
+
+		Total Amount : 100
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 100.0
+		Amount Paid By Customer : 100
+		Change Amount : 0
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

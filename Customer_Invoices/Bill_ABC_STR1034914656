@@ -1,0 +1,23 @@
+	    ABC Medical Store
+	      Customer Bill
+----------------------------------------
+Customer Name : amir
+Customer PhoneNo : 1234567
+Bill No : ABC_STR1034914656
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Klaricid			2023-01-07			25			1			25		
+
+
+--------------------------------------------------
+
+		Total Amount : 25
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 25.0
+		Amount Paid By Customer : 30
+		Change Amount : 5
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

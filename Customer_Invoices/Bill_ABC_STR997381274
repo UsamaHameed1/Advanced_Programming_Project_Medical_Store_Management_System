@@ -1,0 +1,23 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : aa
+Customer PhoneNo : aaa
+Bill No : ABC_STR997381274
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Azomax			2022-01-08			50			2			100		
+
+
+--------------------------------------------------
+
+		Total Amount : 100
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 100.0
+		Amount Paid By Customer : 100
+		Change Amount : 0
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us

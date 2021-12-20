@@ -1,0 +1,23 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : 1
+Customer PhoneNo : 1
+Bill No : ABC_STR409357272
+Payment Number : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Lapiget			2023-12-08			10			12			120		
+
+
+--------------------------------------------------
+
+		Total Amount : 120
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 120.0
+		Amount Paid By Customer : 120
+		Change Amount : 0
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us
