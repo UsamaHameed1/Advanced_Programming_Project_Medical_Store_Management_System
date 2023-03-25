@@ -28,8 +28,8 @@
     1. Check Expiry Items
 
 
-## Gif Demo
-
+## Project Demo
+![](https://github.com/UsamaHameed1/Advanced_Programming_Project_Medical_Store_Management_System/blob/master/Demo-Screenshots/Medical%20Store%20Mangement.gif)
 
 
 ## Technology Stack
