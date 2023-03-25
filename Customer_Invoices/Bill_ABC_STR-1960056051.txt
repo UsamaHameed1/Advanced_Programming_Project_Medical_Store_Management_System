@@ -1,0 +1,24 @@
+		ABC Medical Store
+			Customer Bill
+----------------------------------------
+Customer Name : Ali
+Customer PhoneNo : 0333133456
+Bill No : ABC_STR-1960056051
+Salesman Name : 1
+Payment Method : Cash
+----------------------------------------
+			List of Medicines Purchased
+Sr.No 		Medicine Name 		ExpiryDate		 Unit Price 		 Qty 		 Amount
+1			Flagyl			2024-03-15			10			5			50		
+
+
+--------------------------------------------------
+
+		Total Amount : 50
+		Discount (%) : 0
+		Savings on Bill : 0.0
+		Total Payable Bill : 50.0
+		Amount Paid By Customer : 100
+		Change Amount : 50
+--------------------------------------------------
+In Case Of Query Feel Free To Contact Us
