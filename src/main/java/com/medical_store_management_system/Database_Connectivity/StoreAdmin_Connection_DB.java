@@ -14,6 +14,8 @@ public class StoreAdmin_Connection_DB {
 
     //------------------------------------- Find Store Admin ---------------------------------------------------------------------------------------------------
     public static StoreAdmin findStoreAdmin(String loginUserName, String loginPassword) {
+
+        System.out.println(loginPassword);
         StoreAdmin findAdmin = null;
         Configuration con = new Configuration();
         con.configure().addAnnotatedClass(StoreAdmin.class);
@@ -23,6 +25,8 @@ public class StoreAdmin_Connection_DB {
 
         //---------------------------- HQL Qurey -----------------------------------------------------------------------
         String hql = "FROM StoreAdmin  WHERE adminLoginUserName=:loginUserName AND adminLoginPassword=:loginPassword";
+
+        System.out.println(hql);
         Query query = session.createQuery(hql);
         query.setParameter("loginUserName", loginUserName);
         query.setParameter("loginPassword", loginPassword);

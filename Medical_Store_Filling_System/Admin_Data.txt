@@ -1,1 +1,2 @@
 StoreAdmin{adminCnic=12387655, adminName='Zain Ul Abidin', adminAddress='hello', adminLoginUserName='zain1x', adminLoginPassword='zainx'}
+StoreAdmin{adminCnic=123456789, adminName='Usama Hameed Awan', adminAddress='Rawalpindi', adminLoginUserName='usama1', adminLoginPassword='usama1'}

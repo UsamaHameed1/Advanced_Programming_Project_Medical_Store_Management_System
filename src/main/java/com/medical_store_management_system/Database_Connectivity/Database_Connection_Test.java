@@ -15,7 +15,7 @@ public class Database_Connection_Test {
             Class.forName("com.mysql.cj.jdbc.Driver");
 //            Step#2
             Connection con= DriverManager.getConnection(
-                    "jdbc:mysql://localhost:4399/Medical_Store_Management_System","root","hello123");
+                    "jdbc:mysql://localhost:3306/Medical_Store_Management_System","root","hello123");
 
             System.out.println("Connect to Database Medical_Store_Management_System: Success");
             //Step#3

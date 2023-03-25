@@ -6,7 +6,7 @@
     <session-factory>
 
         <property name="hibernate.hbm2ddl.auto">update</property>
-        <property name="connection.url">jdbc:mysql://localhost:4399/medical_store_management_system</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/medical_store_management_system</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
         <!--        Disable Red SQL LInes-->

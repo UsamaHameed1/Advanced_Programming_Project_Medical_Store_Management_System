@@ -13,3 +13,6 @@ PurchasedMedicines{srNo=0, drugCode='KK-121', medicineName='Klaricid', batchNo='
 PurchasedMedicines{srNo=0, drugCode='KK-121', medicineName='Klaricid', batchNo='SDCA-101-AS6', medicineExpiryDate=2023-01-07, amount=100, quantity=4, unitPrice=25, billNo='ABC_STR-918809872'}
 PurchasedMedicines{srNo=0, drugCode='12345AjJSC', medicineName='Nuberol Forte', batchNo='123-AJH', medicineExpiryDate=2023-12-02, amount=10, quantity=1, unitPrice=10, billNo='ABC_STR-1481254756'}
 PurchasedMedicines{srNo=0, drugCode='AQ1245', medicineName='Pandol Extra', batchNo='QA-121-12A', medicineExpiryDate=2024-12-24, amount=20, quantity=2, unitPrice=10, billNo='ABC_STR-1504345147'}
+PurchasedMedicines{srNo=0, drugCode='12', medicineName='Flagyl', batchNo='99999', medicineExpiryDate=2024-03-15, amount=50, quantity=5, unitPrice=10, billNo='ABC_STR-1960056051'}
+PurchasedMedicines{srNo=0, drugCode='12', medicineName='Flagyl', batchNo='99999', medicineExpiryDate=2024-03-15, amount=50, quantity=5, unitPrice=10, billNo='ABC_STR-1960056051'}
+PurchasedMedicines{srNo=0, drugCode='12', medicineName='Flagyl', batchNo='99999', medicineExpiryDate=2024-03-15, amount=50, quantity=5, unitPrice=10, billNo='ABC_STR-1960056051'}
